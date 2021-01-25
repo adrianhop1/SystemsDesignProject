@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  background-color: #fafafa;
+  font-family: sans-serif;
+}
+
+header, footer {
+  background-color: firebrick;
+}
+
+footer {
+    line-height: 100px;
+    height: 100px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header {
+    padding: 2em 0 3em 0;
+}
+
+.banner {
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+
+footer {
+  text-align: right;
+  padding-right: 20px;
+  color: white;
+}
+
+main {
+  clear: both;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 25px;
+  min-height: 600px;
+}
+
+main.singular {
+  clear: both;
+  margin-left: 120px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  min-height: 600px;
+}
+
+aside {
+    float: left;
+    width: 200px;
+}
+
+section {
+    float: left;
+    margin-left: 15px;
+    width: 520px;
+    min-height: 600px;
+}
+
+main.special {
+  min-height: 1000px;
+  clear: both;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+
+table {
+  width: 90%;
+}
+
+th {
+  text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    padding-bottom: 5px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+a {
+    color: firebrick;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+label {
+  float: left;
+  text-align: right;
+  width: 90px;
+}
+
+form input {
+  margin-left: 1em;
+  width: 20em;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.sems {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.logoutLab {
+  float: right;
+  position: relative;
+  top: -85px;
+  right: 20px;
+}
+
+.tableSbm {
+  margin-left: 0em;
+  margin-top: 10px;
+}
+
+.submit {
+  margin-left: 106px
+}
+
+.right {
+  text-align: right;
+}
+
+.class-list-table {
+    border:1px lightgray solid;
+    border-radius: 2px;
+    background-color: #EFEFEF;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.class-list-table th,td {
+    padding: 0.2em;
+}
+
+.class-list-table th {
+    width: 20%;
+}
+
+.class-list-table td {
+    font-family: monospace, monospace; 
+}
+
+.class-list-table thead tr:first-child {
+    border: 1px solid lightgray;
+}
+
+
+.class-list-class {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+.class-list-semester {
+    border:1px lightgray solid; 
+    border-radius: 2px;
+    background-color: #EFEFEF;
+    padding: 0.5em;
+    margin: 1em 0;
+}
+
+.class-list-semester h2 {
+    margin: 0;
+}
+
+.class-list-class h3 {
+    margin: 0;
+}
+
+.class-list-table tr:nth-child(odd){
+    background-color: #FCFCFC;
+} 
+
+.class-list-table tr:nth-child(even){
+    background-color: #FEFEFE;
+} 
+
+.schedule-view-container {
+    
+}
+
+.schedule-view {
+    display: flex;
+    height: 31em;
+}
+
+.schedule-view-day-mwf-container,.schedule-view-day-tr-container {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.schedule-view-day-mwf,.schedule-view-day-tr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.schedule-view-slot-container {
+    height: calc(100% / 10);
+    border: solid lightgray;
+    border-width: 1px 0;
+    cursor: pointer;
+    padding: 0.1em;
+}
+
+.schedule-view-slot {
+    height: 100%;
+}
+
+.schedule-view-day-header-container {
+    width: 20%; 
+    font-weight: bold;
+}
+
+.new-class-form label {
+    width: 20em;
+}
+
+select {
+    margin-left: 1em;
+}
+
+.right {
+    text-align: right;
+}
+
+td form {
+    margin: 0;
+}
+
+.semesterTable {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.semesterTable td {
+    width: 33%;
+    text-align: center;
+}
+
+.navmenu {
+    display: flex;
+    width: 100%;
+    padding: 0.5em 0;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 2px 5px -2px;
+}
+
+.navmenu-container {
+    margin-bottom: 1em;
+}
+
+.navmenu-item {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navmenu-item a {
+    color: firebrick;
+}
+
+.table-button a{
+    color: firebrick
+}
+
+.table-button {
+    border-radius:3px;
+    border: 1px outset lightgray;
+    background-color: #FAFAFA;
+}
+
+#search {
+    font-size: 100%;
+    width: calc(100% - 0.5em);
+}
+
+input[type=checkbox],input[type=submit] {
+    width: initial;
+}
+
+.action-button {
+    margin: 0 1px;
+}
